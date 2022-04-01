@@ -5,6 +5,8 @@ body{
 }
 input, #enter{
     margin: 1em;
+}
+input{
     text-align: center;
 }
 #enter, #reset{
