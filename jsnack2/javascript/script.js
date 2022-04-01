@@ -11,7 +11,10 @@ const span = document.getElementById("counter");
 let c = 0;
 let entries = 1;
 let counter = 6;
+
+//Impostazione iniziale pagina
 span.innerHTML = counter;
+input.focus();
 
 // Creazione elemento di output
 const h2 = document.createElement("h2");

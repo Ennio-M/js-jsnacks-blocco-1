@@ -13,6 +13,9 @@ const app = document.getElementById("app");
 const check = document.getElementById("check");
 const reset = document.getElementById("reset");
 
+// Impostazione iniziale pagina
+document.getElementById("nome").focus();
+
 // Creazione elemento di output
 const h2 = document.createElement("h2");
 app.append(h2);
